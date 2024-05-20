@@ -11,12 +11,20 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | Start | Completed | Audit Firm | Audit Report |
 |-------|-----------|------------|---------------|
 | 2023-08-22 | 2023-10-26 | [Hexens](#about-hexens) | [Hexens zkVM 0.17.0 Security Audit](zkVM/hexens_zkVM_20231031.pdf) |
+| 2023-11 | 2024-01 | [Hexens](#about-hexens) | [Circuit Audit](circuit/circuits/hexens_v1c_stark2snark_20240520.pdf)|
+| 2024-02 | 2024-03 | [Hexens](#about-hexens) | [Stark2Snark Circuit](circuit/circuits/hexens_v1c_stark2snark_20240520.pdf)|
 
 ## Appendix A: Audit Summary
 
 ### Hexens zkVM 0.17.0 Security Audit
 
 This was an end-to-end deep dive assessment of the zkVM platform in support of our 1.0 target security objectives.  Hexens leveraged A/B testing from two teams, with detailed involvement from Hexens officers, in particular Vahe Karapetyan. 
+
+### Hexens v1 Circuit Audit
+This was a security review of RISC Zero's v1 zk circuit. This was executed by Hexens zk circuit specialists over 10 engineering weeks.
+
+### Hexens Stark2Snark Audit
+This was a security review of RISC Zero's Stark-to-Snark circuit relevant to the on-chain verification of RISC Zero receipts.
 
 #### Scoping Notes:
 The EDSL version of the circuit was not included in the assessment scope, however, source code was provided for context as needed.
