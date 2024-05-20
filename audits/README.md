@@ -20,12 +20,6 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 
 This was an end-to-end deep dive assessment of the zkVM platform in support of our 1.0 target security objectives.  Hexens leveraged A/B testing from two teams, with detailed involvement from Hexens officers, in particular Vahe Karapetyan. 
 
-### Hexens v1 Circuit Audit
-This was a security review of RISC Zero's v1 zk circuit. This was executed by Hexens zk circuit specialists over 10 engineering weeks.
-
-### Hexens Stark2Snark Audit
-This was a security review of RISC Zero's Stark-to-Snark circuit relevant to the on-chain verification of RISC Zero receipts.
-
 #### Scoping Notes:
 The EDSL version of the circuit was not included in the assessment scope, however, source code was provided for context as needed.
 
@@ -38,7 +32,7 @@ An expansion of scope was amended to include key aspects of recursion which were
 | Duration: | 300 person days |
 | Source code provided: | Yes |
 
-### Findings
+#### Findings
 | Severity | Short Description | Status | Audit Verification of Status |  
 |----------|-------------------|--------|-------|
 | high | DoS with SHA ecall using big block compression count | fixed | verified |
@@ -51,6 +45,12 @@ An expansion of scope was amended to include key aspects of recursion which were
 
 1. This is an upstream issue in older versions of the NVidia CUDA binary, RISC Zero will encourage the use of later versions of CUDA as implementation changes here to workaround this bug by the zkVM are complex.
 2. Constant time within the zkVM guest execution incurs unnecessary performance impacts, as in almost all reasonable use cases an evil host can already snoop on guest private inputs.
+
+### Hexens v1 Circuit Audit
+This was a security review of RISC Zero's v1 zk circuit. This was executed by Hexens zk circuit specialists over 10 engineering weeks.
+
+### Hexens Stark2Snark Audit
+This was a security review of RISC Zero's Stark-to-Snark circuit relevant to the on-chain verification of RISC Zero receipts.
 
 ## Appendix: B Audit Firm Details
 
