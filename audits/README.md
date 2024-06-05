@@ -13,6 +13,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2023-08-22 | 2023-10-26 | [Hexens](#about-hexens) | [Hexens zkVM 0.17.0 Security Audit](zkVM/hexens_zkVM_20231031.pdf) |
 | 2023-11 | 2024-01 | [Hexens](#about-hexens) | [Circuit Audit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
 | 2024-02 | 2024-03 | [Hexens](#about-hexens) | [Stark2Snark Circuit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
+| 2024-05 | 2024-06 | [Hexens](#about-hexens) | [SNARK Verifier Contract](contracts/hexens_verifiercontract_20240605.pdf) |
 
 ## Appendix A: Audit Summary
 
