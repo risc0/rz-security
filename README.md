@@ -18,5 +18,5 @@ Contact Info: ```security@risczero.com```
 [1b]: https://hackenproof.com/programs/risc-zero-zkvm 
 [1c]: https://github.com/risc0/risc0/security/advisories
 [1d]: https://github.com/risc0/risc0/security/policy
-[2a]: https://github.com/risc0/risc0/security/policy
+[2a]: https://dev.risczero.com/api/trusted-setup-ceremony
 [4a]: https://www.risczero.com/blog/risc-zero-take-the-rekt-test
