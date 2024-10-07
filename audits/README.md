@@ -14,46 +14,30 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2023-11 | 2024-01 | [Hexens](#about-hexens) | [Circuit Audit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
 | 2024-02 | 2024-03 | [Hexens](#about-hexens) | [Stark2Snark Circuit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
 | 2024-05 | 2024-06 | [Hexens](#about-hexens) | [SNARK Verifier Contract](contracts/hexens_verifiercontract_20240605.pdf) |
+| 2024-09 | 2024-10 | [Veridise](#about-veridise) | [Steel Audit](steel/veridise_steel_20241007.pdf) |
 
-## Appendix A: Audit Summary
 
-### Hexens zkVM 0.17.0 Security Audit
+## Appendix A: Audit Firm Details
 
-This was an end-to-end deep dive assessment of the zkVM platform in support of our 1.0 target security objectives.  Hexens leveraged A/B testing from two teams, with detailed involvement from Hexens officers, in particular Vahe Karapetyan. 
+### About Veridise
+[Veridise](https://veridise.com) was founded in 2021 by a team of world-class academics.
 
-#### Scoping Notes:
-The EDSL version of the circuit was not included in the assessment scope, however, source code was provided for context as needed.
+The birthplace of Veridise is the UToPiA research group.
 
-An expansion of scope was amended to include key aspects of recursion which were released in zkVM 0.19.
+Our co-founder and UT Austin professor, Isil Dillig, leads the UToPiA research group, which focuses on program analysis, verification, and synthesis—an area of Computer Science that has profound implications for software security.
 
-| Details | |
-|---------|-|
-| Date Completed: | 2023-10-26 |
-| Version: | [zkVM 0.17.0](https://github.com/risc0/risc0/tree/323b5f58e45a7b0de02df6227e1e9de475f70176)
-| Duration: | 300 person days |
-| Source code provided: | Yes |
+Starting in 2018, program analysis for smart contracts emerged as a central area of research for the group: They created advanced vulnerability detection tools and built deep domain expertise in the DeFi space.
 
-#### Findings
-| Severity | Short Description | Status | Audit Verification of Status |  
-|----------|-------------------|--------|-------|
-| high | DoS with SHA ecall using big block compression count | fixed | verified |
-| medium | ELF segment virtual address can be set to an arbitrary address | fixed | verified |
-| medium| ecall paramaters missing address range checks| fixed | verified |
-| low | CUDA memory leak can leak private inputs from data trace | n/a [1]| n/a |
-| low | executor ELF loader virtual address word alignment check missing | fixed | verified |
-| low | non constant-time implementation in finite field operations | n/a [2] | n/a |
-| low | syscall pointer type parameters missing address range check | fixed | verified |
+The work of the group didn’t go unnoticed. Several security companies lined up to use these techniques, while protocols sought our expertise for audits.
 
-1. This is an upstream issue in older versions of the NVidia CUDA binary, RISC Zero will encourage the use of later versions of CUDA as implementation changes here to workaround this bug by the zkVM are complex.
-2. Constant time within the zkVM guest execution incurs unnecessary performance impacts, as in almost all reasonable use cases an evil host can already snoop on guest private inputs.
+These signals prompted us to roll up our sleeves and start Veridise.
 
-### Hexens v1 Circuit Audit
-This was a security review of RISC Zero's v1 zk circuit. This was executed by Hexens zk circuit specialists over 10 engineering weeks.
+Audit points of contact:
+* Jon Stephens
 
-### Hexens Stark2Snark Audit
-This was a security review of RISC Zero's Stark-to-Snark circuit relevant to the on-chain verification of RISC Zero receipts.
+Many Veridise team members, such as Kostas Ferles, Ben Sepanski, Shankara Pailoor, Ben Mariano, and Jacob Van Geffen previously worked as researchers in the UToPiA group, and many of them contributed to smart contract security research before joining Veridise. As a result, we are in the unique position of combining the latest academic research discoveries with deep industry experience for industry-leading audits.
 
-## Appendix: B Audit Firm Details
+Today, Veridise is lead by President & Co-founder Isil Dillig and CEO & Co-founder Jon Stephens. The Veridise team consists of 35+ dedicated professionals, continuing to advance blockchain security.
 
 ### About Hexens
 [Hexens](https://hexens.io) is a cybersecurity company that strives to elevate the standards of security in Web 3.0, create a safer environment for users, and ensure mass Web 3.0 adoption.
