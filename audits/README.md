@@ -14,6 +14,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2023-11 | 2024-01 | [Hexens](#about-hexens) | [Circuit Audit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
 | 2024-02 | 2024-03 | [Hexens](#about-hexens) | [Stark2Snark Circuit](circuits/hexens_v1c_stark2snark_20240520.pdf)|
 | 2024-05 | 2024-06 | [Hexens](#about-hexens) | [SNARK Verifier Contract](contracts/hexens_verifiercontract_20240605.pdf) |
+| 2024-08 | 2024-09 | [Veridise](#about-veridise) | [Solana Verifier SNARK Contract](contracts/veridise_solanaverifier_20240904.pdf) |
 | 2024-09 | 2024-10 | [Veridise](#about-veridise) | [Steel Audit](steel/veridise_steel_20241007.pdf) |
 
 
