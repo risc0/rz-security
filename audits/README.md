@@ -16,7 +16,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2024-05 | 2024-06 | [Hexens](#about-hexens) | [SNARK Verifier Contract](contracts/hexens_verifiercontract_20240605.pdf) |
 | 2024-08 | 2024-09 | [Veridise](#about-veridise) | [Solana Verifier SNARK Contract](contracts/veridise_solanaverifier_20240904.pdf) |
 | 2024-09 | 2024-10 | [Veridise](#about-veridise) | [Steel Audit](steel/veridise_steel_20241007.pdf) |
-
+| 2025-01 | 2025-02 | [Veridise](#about-veridise) | [Kailua Audit](kailua/veridise-kailua-20250217.pdf) |
 
 ## Appendix A: Audit Firm Details
 
