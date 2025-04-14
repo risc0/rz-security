@@ -20,7 +20,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2024-06 | 2024-12 | [Veridise](#about-veridise) | [zkVM](zkVM/veridise_zkVM_20250224.pdf) |
 | 2024-12 | 2024-12 | [Veridise](#about-veridise) | [bigint2 precompile](precompiles/veridise_bigint2_240324.pdf) |
 | 2025-01 | 2025-02 | [Veridise](#about-veridise) | [keccak precompile](precompiles/veridise_keccak-250221.pdf) |
-
+| 2025-02 | 2025-03 | [zkSecurity](#about-zkSecurity) | [solana groth16 verifier](groth16/zksecurity_groth16.pdf) |
 
 
 ## Appendix A: Audit Firm Details
@@ -53,3 +53,9 @@ Hexens has multiple top-notch auditing teams specialized in different fields of 
 Audit points of contact: 
 * Vahe Karapetyan <v.k@hexens.io> 
 * Konstantin Andriotis <k.a@hexens.io>
+
+### About zkSecurity
+[zkSecurity](https://www.zksecurity.xyz/) specializes in advanced cryptographic solutions, including ZKP, MPC, FHE, and Post-Quantum Cryptography. We are committed to making your systems secure and future-proof.
+
+Audit points of contact:
+* David Wong <david@zksecurity.xyz>
