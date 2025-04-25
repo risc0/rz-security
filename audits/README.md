@@ -16,12 +16,13 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2024-05 | 2024-06 | [Hexens](#about-hexens) | [SNARK Verifier Contract](contracts/hexens_verifiercontract_20240605.pdf) |
 | 2024-08 | 2024-09 | [Veridise](#about-veridise) | [Solana Verifier SNARK Contract](contracts/veridise_solanaverifier_20240904.pdf) |
 | 2024-09 | 2024-09 | [Veridise](#about-veridise) | [blobstream zero](blobstream/veridise-blobstream-20240909.pdf)
-| 2024-09 | 2024-10 | [Veridise](#about-veridise) | [Steel](steel/veridise_steel_20241007.pdf) |
+| 2024-09 | 2024-10 | [Veridise](#about-veridise) | [steel](steel/veridise_steel_20241007.pdf) |
 | 2025-01 | 2025-02 | [Veridise](#about-veridise) | [Kailua](kailua/veridise-kailua-20250217.pdf) |
 | 2024-06 | 2024-12 | [Veridise](#about-veridise) | [zkVM](zkVM/veridise_zkVM_20250224.pdf) |
 | 2024-12 | 2024-12 | [Veridise](#about-veridise) | [bigint2 precompile](precompiles/veridise_bigint2_240324.pdf) |
 | 2025-01 | 2025-02 | [Veridise](#about-veridise) | [keccak precompile](precompiles/veridise_keccak-250221.pdf) |
 | 2025-02 | 2025-03 | [zkSecurity](#about-zkSecurity) | [solana groth16 verifier](groth16/zksecurity_groth16.pdf) |
+| 2025-03 | 2025-04 | [Veridise](#about-veridise) |[boundless](boundless/veridise-boundless-250404.pdf) |
 
 
 ## Appendix A: Audit Firm Details
