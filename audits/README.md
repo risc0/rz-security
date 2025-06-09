@@ -22,7 +22,9 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2024-12 | 2024-12 | [Veridise](#about-veridise) | [bigint2 precompile](precompiles/veridise_bigint2_240324.pdf) |
 | 2025-01 | 2025-02 | [Veridise](#about-veridise) | [keccak precompile](precompiles/veridise_keccak-250221.pdf) |
 | 2025-02 | 2025-03 | [zkSecurity](#about-zkSecurity) | [solana groth16 verifier](groth16/zksecurity_groth16.pdf) |
-| 2025-03 | 2025-04 | [Veridise](#about-veridise) |[boundless](boundless/veridise-boundless-250404.pdf) |
+| 2025-03 | 2025-04 | [Veridise](#about-veridise) | [boundless](boundless/veridise-boundless-250404.pdf) |
+| 2025-03 | 2025-04 | [zkSecurity](#about-zkSecurity) | [r0vm-helios](r0vm-helios/zksecurity_helios_20250402.pdf) |
+| 2025-04 | 2025-05 | [Veridise](#about-veridise) | [steel](steel/veridise_steel_250414.pdf) |
 
 
 ## Appendix A: Audit Firm Details
