@@ -27,6 +27,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2025-04    | 2025-05    | [Veridise](#about-veridise)     | [steel](steel/veridise_steel_250414.pdf)                                         |
 | 2025-05    | 2025-05    | [Veridise](#about-veridise)     | [Kailua](kailua/veridise-kailua-20250522.pdf)                                    |
 | 2025-05    | 2025-06    | [Veridise](#about-veridise)     | [Kailua](kailua/veridise-kailua-20250616.pdf)                                    |
+| 2025-07    | 2025-08    | [Hexens](#about-hexens)         | [PoVW](povw/hexens-250827.pdf) |
 
 ## Appendix A: Audit Firm Details
 
