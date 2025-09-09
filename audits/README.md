@@ -23,6 +23,7 @@ The RISC Zero [zero-knowledge virtual machine (zkVM)](https://dev.risczero.com/a
 | 2025-01 | 2025-02 | [Veridise](#about-veridise) | [keccak precompile](precompiles/veridise_keccak-250221.pdf) |
 | 2025-02 | 2025-03 | [zkSecurity](#about-zkSecurity) | [solana groth16 verifier](groth16/zksecurity_groth16.pdf) |
 | 2025-03 | 2025-04 | [Veridise](#about-veridise) |[boundless](boundless/veridise-boundless-250404.pdf) |
+| 2025-07 | 2025-08 | [Hexens](#about-hexens) |[PoVW](povw/hexens-250827.pdf) |
 
 
 ## Appendix A: Audit Firm Details
